@@ -1,0 +1,54 @@
+header {
+    font-size: 20px;
+    font-family: cursive;
+    font-style: oblique;
+    color: gold;
+    display: flex;
+    justify-content: left;
+}
+
+h1 {
+    font-size: 25px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+   /* align-items: center; */
+   justify-content: center;
+}
+
+body {
+    background-color:black;
+    color:aliceblue
+}
+
+.button {
+    display: flex;
+    /* justify-content: right; */
+    /* align-items: right; */
+    background-color:dimgrey;
+    color: gold;
+}
+
+* {
+    padding: 5px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: gold;
+}
+
+form {
+    display: flex;
+    flex-flow: column-wrap;
+    align-items: center;
+    justify-content: center;
+}
